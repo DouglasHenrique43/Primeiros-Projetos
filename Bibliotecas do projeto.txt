@@ -1,0 +1,9 @@
+Machine Learning  
+   Keras e TensorFlow: rede neural para previsão (main)
+   CatBoost:
+   XGBoost e LightGBM: 
+   Scikit-learn: pré-processamento e seleção de recursos. (main)
+Finanças
+    QuantLib: calcular opções e derivativos (main)
+    Pyfolio: backtesting de estratégias de negociação (suporte)
+    Zipline: backtesting de estratégias de negociação (suporte)

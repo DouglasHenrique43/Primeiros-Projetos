@@ -1,0 +1,51 @@
+                            Aprendizado de Máquina (Machine Learning):
+
+Para tarefas de classificação, regressão e agrupamento, você pode usar:
+    Scikit-learn: 
+    Uma biblioteca amplamente usada para aprendizado de máquina em Python.
+ Ela oferece uma variedade de algoritmos e ferramentas para pré-processamento de dados.
+ Exemplo de uso:
+ import sklearn
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier()
+
+    XGBoost e LightGBM: 
+    Bibliotecas para gradient boosting, úteis para melhorar a precisão dos modelos.
+CatBoost: Outra biblioteca de gradient boosting que lida bem com dados categóricos.
+
+
+
+                            Redes Neurais Artificiais (ANNs):
+
+Problemas mais complexos, como processamento de linguagem natural (NLP) ou visão computacional:
+    TensorFlow e Keras: Bibliotecas populares para construir redes neurais profundas.
+ Exemplo de uso:
+    import tensorflow as tf
+model = tf.keras.Sequential()
+
+    PyTorch: Uma estrutura flexível e dinâmica para redes neurais.
+
+
+
+                             Processamento de Linguagem Natural (NLP):
+
+Para tarefas relacionadas a texto, como análise de sentimentos ou tradução automática, você pode usar:
+NLTK: Biblioteca para processamento de linguagem natural.
+Exemplo de uso:
+import nltk
+nltk.download('punkt')
+
+spaCy: Uma alternativa eficiente para processamento de texto.
+Transformers (Hugging Face): Biblioteca para modelos pré-treinados de NLP, como BERT, GPT-2 e outros.
+
+
+
+                            Visão Computacional:
+Para tarefas relacionadas a imagens, como detecção de objetos ou segmentação, você pode usar:
+OpenCV: Biblioteca para processamento de imagens e visão computacional.
+Exemplo de uso:
+    import cv2
+
+Fastai: Uma biblioteca de alto nível baseada no PyTorch para visão computacional.
+
+

@@ -1,0 +1,81 @@
+                            Inteligência Artificial Financeira
+OBJETIVO:
+    - Sua finalidade seria responder perguntas relacionadas ao mundo financeiro.
+    - fazer comparações financeiras de ações e FIIs.
+    - APENAS dar informações dos valores das criptomoedas.
+    - Gerar simulações financeiras com base em aportes mensais.
+    - Gerar simulação de expectativa de alta ou baixa da carteira de investimento.
+    - expectativa de baixa ou alta das ações.
+
+QUAIS BIBLIOTECAS USAR:
+   Keras e TensorFlow:
+   CatBoost:
+   XGBoost e LightGBM:
+   Scikit-learn:
+    - Machine Learning
+   NumPy:
+    - Framework de Aprendizado de maquina e IA
+    - Ele é uma biblioteca numérica de código aberto que permite realizar operações matemáticas em matrizes.
+    - Com o NumPy, você pode manipular dados, transpor matrizes e realizar cálculos eficientes.
+    - É uma escolha sólida para aumentar o desempenho dos modelos de aprendizado de máquina.
+   Pandas:
+    - Analise de dados.
+   Plotly:
+   Matplotlib:
+    - Gráficos
+   yfinance:
+    - Biblioteca financeira
+   Scikit-learn:
+    - É uma biblioteca de aprendizado de máquina que oferece algoritmos para classificação, 
+      regressão, agrupamento e muito mais.
+    - Pode ser útil para criar modelos preditivos com base em dados financeiros.
+   TensorFlow e PyTorch:
+    - Explorar redes neurais profundas e aprendizado profundo.
+      Essas bibliotecas são amplamente usadas para construir modelos complexos de IA.
+      
+      
+BANCO DE DADOS (SQL): (API financeiros: Alpha Vantage, Yahoo Finance, Quandl)
+     - Alguns sites de bancos de dados (MySQL, PostgreSQL ou SQLite)
+- IDEIA: 
+     - Você pode criar tabelas para representar diferentes tipos de dados financeiros e executar 
+       consultas SQL para recuperar informações específicas.
+- Bancos de Dados NoSQL:
+     - Os bancos de dados NoSQL, como o MongoDB, são úteis para armazenar dados não estruturados ou 
+       semiestruturados. Eles podem ser usados para armazenar dados de séries temporais, notícias 
+       financeiras, tweets, etc. NoSQL é flexível e escalável, mas requer um design cuidadoso do esquema.
+Datasets Públicos:
+Existem vários conjuntos de dados financeiros públicos disponíveis gratuitamente.
+Alguns exemplos incluem:
+Data.gov: Um catálogo de dados governamentais dos EUA em formatos abertos e legíveis por máquina.
+Data.gov.in: Dados compartilháveis do governo indiano em formatos humanos e legíveis por máquina.
+data.europa.eu: Portal oficial para dados europeus da UE.
+Global Financial Data (GDF): Um extenso banco de dados de dados financeiros atuais e históricos.
+International Monetary Fund (IMF): Dados macroeconômicos e financeiros globais.
+World Bank Open Data: Dados globais de desenvolvimento aberto.
+
+TRATAMENTO DAS BASES DE DADOS:
+      - Aqui eu irei excluir as colunas inuteis.
+      - Excluir linhas com valores vazios.
+      - Ajeitas formas de leitura de caracteres especiais.
+      - Tratar as casas decimais para no maximo duas.
+
+TREINAMENTO DA IA:
+      - Escolha um modelo de IA adequado para o seu problema financeiro.
+          Para previsões de séries temporais, modelos como Redes Neurais Recorrentes (RNNs),
+          LSTM ou Redes Neurais Convolucionais (CNNs) podem ser úteis.
+      - Alimente seus dados de treinamento no modelo:
+      - Ajuste os hiperparâmetros e execute o treinamento:
+      - Monitore a perda (loss) e a precisão (accuracy) do modelo durante o treinamento:
+AVALIAÇÃO DO MODELO:
+      - Use os dados de teste para avaliar o desempenho do modelo:
+      - Calcule métricas relevantes, como erro médio absoluto (MAE), erro quadrático médio (MSE)
+        ou coeficiente de determinação (R²).
+Ajustes e Otimização:
+Com base nos resultados da avaliação, ajuste os hiperparâmetros e otimize o modelo.
+Experimente diferentes arquiteturas e técnicas para melhorar o desempenho.
+Previsões e Uso em Produção:
+Após o treinamento, use o modelo para fazer previsões com novos dados.
+Integre o modelo treinado em seu aplicativo ou sistema de produção para uso contínuo.
+
+
+
